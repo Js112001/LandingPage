@@ -1,0 +1,199 @@
+@media screen and (max-width: 1193px){
+    .f-container{
+        height: 100vh;
+    }
+    .card-container {
+        padding: 6px;
+    }
+
+    .card{
+        width: 250px;
+        margin: 45px;
+    }
+
+    img{
+        width: 250px;
+    }
+
+    .c-container{
+        width: 250px;
+        height: 305px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .card-container{
+        display: grid;
+        grid-template-areas: 
+        "c1 c2"
+        "c3 .";
+    }
+}
+
+@media screen and (max-width: 534px) {
+    .s-container > .heading{
+       font-size: 12px;
+    }
+    
+}
+
+@media screen and (max-width: 540px){
+    .s-container {
+        height: 350px;
+    }
+    .card-container{
+        display: grid;
+        grid-template-areas: 
+        "c1" 
+        "c2"
+        "c3";
+        padding: 50px;
+    }
+
+    .card {
+        margin-left: 100px;
+    }
+
+    .last-container{
+        display: grid;
+        grid-template-areas: 
+        "n"
+        "con"
+        "ab"
+        "f1"
+        "f2";
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 414px){
+    .card-container{
+        padding: 40px;
+    }
+    .s-container{
+        height: 350px;
+    }
+    
+    .card {
+        margin-left: 48px;
+    }
+
+    .last-container{
+        display: grid;
+        grid-template-areas: 
+        "n"
+        "con"
+        "ab"
+        "f1"
+        "f2";
+        text-align: center;
+    }   
+    
+}
+
+@media screen and (max-width: 375px){
+    .s-container{
+        height: 470px;
+    }
+
+    .s-container > .heading > h1{
+        padding-top: 40px;
+    }
+    
+    .card {
+        margin: 30px;
+    }
+
+    .need{
+        height: 50vh;
+    }
+    
+}
+
+@media screen and (max-width: 320px){
+    .card {
+        /* margin: 3px; */
+        margin-bottom: 10px;
+        /* margin-right: 22px; */
+        margin-left: -2px;
+    }
+
+    .s-container {
+        height: 535px;
+    }
+    
+    .need{
+        width: 300px;
+        height: 60vh;
+    }
+
+    .contact{
+        height: 60vh;
+    }
+
+    .about{
+        height: 60vh;
+    }
+
+}
+
+@media screen and (max-width: 280px){
+    .s-container {
+        height: 600px;
+    }
+
+    #para1 {
+        padding: 0px;
+        padding-left: 30px;
+    }
+
+    #para2 {
+        padding: 0px;
+    }
+
+    .card {
+        width: 240px;
+       margin-left: 5px;
+    }
+
+    .card-container {
+       padding: 20px;
+       
+    }
+
+    img {
+        width: 230px;
+    }
+
+    .c-container {
+        width: 230px;
+        padding-bottom: 20px;
+    }
+
+    .heading{
+        padding-left: 20px;
+    }
+
+    .intro{
+        padding-left: 30px;
+    }
+
+    .need {
+        width: 262px;
+    }
+
+    .contact {
+        width: 262px;
+    }
+
+    .about > p {
+        font-size: 15px;
+    }
+    .need > p {
+        font-size: 15px;
+    }
+    .contact > p {
+        font-size: 15px;
+    }
+}

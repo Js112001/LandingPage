@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.f-container{
+    background-image: url("coding.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.88;
+}
+
+.heading{
+    color: white;
+    line-height: 1.5;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    font-family: 'Mate SC', serif;
+}
+
+.intro{
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.f-container > a > button{
+    padding: 20px;
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: 'Lora', serif;
+    background-color: rgb(46, 45, 45);
+    color: white;
+    border: 1px solid white;
+}
+.f-container > a > button:hover{
+    background-color: white;
+    color: rgb(46, 45, 45);
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.s-container{
+    display: grid;
+    grid-template-areas: 
+    "h h"
+    "p1 p2";
+    background-color: #e0e0e0;
+    /* padding: 30px; */
+    height: 30vh;
+}
+
+.s-container > .heading{
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    grid-area: h;
+    font-family: 'Mate SC', serif;
+}
+
+
+
+#para1{
+    /* border: 3px solid red; */
+    font-size: 20px;
+    grid-area: p1;
+    padding: 10px;
+    padding-left: 55px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#para2{
+    /* border: 3px solid yellow; */
+    font-size: 20px;
+    grid-area: p2;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.card-container{
+    display: grid;
+    grid-template-areas: 
+    "c1 c2 c3";
+    /* grid-gap: 5px; */
+    background-color: rgb(49, 47, 47);
+    padding: 40px;
+}
+
+#card-1{
+    grid-area: c1;
+   
+}
+#card-2{
+    grid-area: c2;
+}
+#card-3{
+    grid-area: c3;
+}
+
+.card{
+    /* border: 3px solid red; */
+    width: 320px;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 8px 0 rgba(227, 230, 230, 0.5);
+}
+
+img{
+    width: 320px;
+    height: 200px;
+    /* margin-top: 50px; */
+}
+
+.c-container{
+    width: 320px;
+    height: 285px;
+    /* border: 3px solid red; */
+    text-align: center;
+    margin-top: -5px;
+    background-color: white;
+}
+
+.c-container > h4{
+    font-size: 25px;
+    line-height: 70px;
+    font-family: 'Mate SC', serif;
+}
+
+.c-container > p{
+    font-size: 20px;
+    /* line-height: 70px; */
+    font-family: 'Raleway', sans-serif;
+}
+
+.c-container > a > button{
+    padding: 10px;
+    background: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-family: 'Lora', serif;
+}
+
+.c-container > a > button:hover{
+   background-color: rgb(49, 47, 47);
+   color: white;
+}
+
+.last-container{
+    display: grid;
+    grid-template-areas: 
+    "n n"
+    "con ab"
+    "f1 f2";
+    text-align: center;
+}
+
+.need{
+    grid-area: n;
+    height: 40vh;
+    /* border: 3px solid red; */
+    display: grid;
+    align-content: center;
+    padding: 0 10px;
+}
+
+.need > h1{
+    font-family: 'Mate SC', serif;    
+}
+.contact > h1{
+    font-family: 'Mate SC', serif;
+}
+.about > h1{
+    font-family: 'Mate SC', serif;
+}
+
+.need > p{
+    font-size: 20px;
+    padding-top: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+.contact > p{
+    font-size: 20px;
+    padding-top: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+.about > p{
+    font-size: 20px;
+    padding-top: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+.footer1 > p{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.footer2 > p{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.contact{
+    grid-area: con;
+    height: 50vh;
+    /* border: 3px solid yellow; */
+    display: grid;
+    align-content: center;
+    color: white;
+    background-color: #2690d4;
+    padding: 0 10px;
+}
+
+.about{
+    grid-area: ab;
+    height: 50vh;
+    /* border: 3px solid yellow; */
+     display: grid;
+    align-content: center;
+    color: white;
+    background-color: rgb(49, 47, 47);
+    padding: 0 10px;
+}
+
+.footer1{
+    grid-area: f1;
+    height: 10vh;
+    /* border: 3px solid green; */
+     display: grid;
+    align-content: center;
+    background-color: black;
+    color: white;
+}
+
+.footer2{
+    grid-area: f2;
+    height: 10vh;
+    /* border: 3px solid green; */
+     display: grid;
+    align-content: center;
+    background-color: black;
+    color: white;
+}
+
+#link{
+    text-decoration: none;
+    color: #2690d4;
+}
+
+
+
+
